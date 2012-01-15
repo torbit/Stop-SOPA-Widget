@@ -1,7 +1,7 @@
 Stop SOPA Widget
 ================
 
-* Author:    Torbit (torbit.com)
+* Author:    Torbit (<http://torbit.com>)
 * Date:      Jan 15, 2012
 * Last mod.: Jan 15, 2012
 * Version:   1.0
