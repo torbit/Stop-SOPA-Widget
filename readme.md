@@ -6,7 +6,7 @@ Stop SOPA Widget
 * Last mod.: Jan 15, 2012
 * Version:   1.0
 * Website:   <http://torbit.com/blog/2012/01/15/stop-sopa-js/>
-* GitHub:    <https://github.com/jabbalaci/Wallpaper-Downloader-and-Rotator-for-Gnome>
+* GitHub:    <https://github.com/torbit/Stop-SOPA-Widget>
 * License:   Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
 
 Purpose
