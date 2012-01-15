@@ -54,7 +54,7 @@
                 var children = object.childNodes;
                 for(j=0; j<children.length; j++) {
                     if(children[j].getAttribute('name').match(/flashvars/i)) {
-                        new_object = html.replace(/<param\s+name\s*=\s*('|")flashvars('|")\s+value\s*=\s*('|")[^'"]*('|")\s*\/?\>/i,"<param name='flashvars' value='"+children[j].getAttribute('value')+"' />");
+                        new_object = new_object.replace(/<param\s+name\s*=\s*('|")flashvars('|")\s+value\s*=\s*('|")[^'"]*('|")\s*\/?\>/i,"<param name='flashvars' value='"+children[j].getAttribute('value')+"' />");
                     }
                 }
                 // replace the old embed object with the fixed versiony
