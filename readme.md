@@ -17,7 +17,7 @@ This widget will show a modal window to increase awareness about SOPA/PIPA on Ja
 Usage
 -----
 
-Add this snipet to the <head> of your site or the top of your <body>:
+Add this snipet to the `<head>` or top of the `<body>` on your site:
 
     <script type='text/javascript'>
     (function(){
