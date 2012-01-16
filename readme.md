@@ -19,19 +19,19 @@ Usage
 
 Add this snipet to the `<head>` or top of the `<body>` on your site:
 
-    <script type='text/javascript'>
-    (function(){
-        var t = (new Date).getTime();
-        if ( ( t >= 1326891600000 && t <= 1326934800000 ) || window.location.hash == '#stopsopa' ) {
-            var a = document.createElement('script');
-            a.type = 'text/javascript';
-            a.async = true;
-            a.src='stop-sopa.js';
-            var b = document.getElementsByTagName('script')[0];
-            b.parentNode.insertBefore( a, b );
-        }
-    }());
-</script>
+    <script type="text/javascript">
+        (function(){
+            var a=(new Date).getTime();
+            if(a>=1326891600000 && a<=1326934800000 || window.location.hash=="#stopsopa"){
+                var b=document.createElement("script");
+                b.type="text/javascript";
+                b.async=true;
+                b.src="//d3h3c6xp83q3fn.cloudfront.net/stop-sopa.min.js";
+                var c=document.getElementsByTagName("script")[0];
+                c.parentNode.insertBefore(b,c)
+            }
+        })()
+    </script>
 
 Features
 --------
