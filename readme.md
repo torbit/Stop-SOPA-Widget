@@ -45,4 +45,10 @@ Features
 * Supports SSL
 * Hackable!  Feel free to modify and update however you'd like.
 
+Known Issues
+------------
+
+* While we use JS to fix the wmode on flash, Iframes can ocassionally still peek through the modal in some browsers
+
+
  
